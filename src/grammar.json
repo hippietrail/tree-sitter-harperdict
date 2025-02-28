@@ -10,6 +10,10 @@
           "name": "number"
         },
         {
+          "type": "STRING",
+          "value": "\n"
+        },
+        {
           "type": "REPEAT",
           "content": {
             "type": "SYMBOL",
@@ -93,7 +97,7 @@
           "members": [
             {
               "type": "SYMBOL",
-              "name": "commenrt"
+              "name": "comment"
             },
             {
               "type": "BLANK"
@@ -104,11 +108,11 @@
     },
     "number": {
       "type": "PATTERN",
-      "value": "[0-9]+"
+      "value": "\\d+"
     },
     "word": {
       "type": "PATTERN",
-      "value": "[0-9A-Za-z'áçéíïóü']+[A-Za-z'áçéíïóü'][0-9A-Za-z'áçéíïóü']*"
+      "value": "[0-9A-Za-z'áçéíïóü']*[A-Za-z'áçéíïóü'][0-9A-Za-z'áçéíïóü']*"
     },
     "slash": {
       "type": "STRING",
@@ -122,7 +126,7 @@
       "type": "PATTERN",
       "value": "\\s+"
     },
-    "commenrt": {
+    "comment": {
       "type": "PATTERN",
       "value": ".+"
     }

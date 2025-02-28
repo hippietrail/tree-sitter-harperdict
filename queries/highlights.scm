@@ -3,5 +3,5 @@
 (number) @number
 (word) @keyword
 (slash) @operator
-(fl) @function
-(com) @comment
+(flags) @function
+(comment) @comment
