@@ -112,7 +112,7 @@
     },
     "word": {
       "type": "PATTERN",
-      "value": "[0-9A-Za-z'áçéíïóü']*[A-Za-z'áçéíïóü'][0-9A-Za-z'áçéíïóü']*"
+      "value": "[0-9A-Za-z'áçéíïóü'.]+"
     },
     "slash": {
       "type": "STRING",
