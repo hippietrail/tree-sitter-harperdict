@@ -1,7 +1,7 @@
 ; highlights.scm
 
 (number) @number
-(word) @keyword
+(word) @string
 (slash) @operator
-(flags) @function
+(flags) @attribute
 (comment) @comment
