@@ -8,7 +8,7 @@
 // @ts-check
 
 module.exports = grammar({
-  name: "hdz",
+  name: "harperdict",
 
   rules: {
     source_file: $ => seq($.number, '\n', repeat($.entry)),
