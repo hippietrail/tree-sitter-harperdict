@@ -2,9 +2,9 @@
   "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
   "grammars": [
     {
-      "name": "harper_dict",
-      "camelcase": "HarperDict",
-      "scope": "source.harper_dict",
+      "name": "hdz",
+      "camelcase": "Hdz",
+      "scope": "source.hdz",
       "file-types": [
         "dictionary.dict"
       ],
@@ -21,7 +21,7 @@
       }
     ],
     "links": {
-      "repository": "https://github.com/tree-sitter/tree-sitter-harper-dict"
+      "repository": "https://github.com/tree-sitter/tree-sitter-harperdict"
     }
   }
 }
