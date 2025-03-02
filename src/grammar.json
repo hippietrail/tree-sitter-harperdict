@@ -1,6 +1,6 @@
 {
   "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/grammar.schema.json",
-  "name": "hdz",
+  "name": "harper_dict",
   "rules": {
     "source_file": {
       "type": "SEQ",
